@@ -5,7 +5,7 @@
 <meta charset="UTF-8">
 
 <style>
-.tableheadandbody{border-spacing: 10px 10px; align:center; margin-left: auto; margin-right: auto; width:60%; height:55px; cellpadding:20px; cellspacing:10;}
+.tableheadandbody{border-spacing: 10px 10px; align:center; margin-left: auto; margin-right: auto; width:60%; height:1000px; cellpadding:20px; cellspacing:10;}
 .tr1{height:50px; padding-left: 5px; padding-right: 5px; margin:10px; border:1px solid tomato; border-radius: 20px/20px; text-align:center;}
 .tr2{height:250px; padding-left: 5px; padding-right: 5px; margin:10px; border:1px solid tomato; border-radius: 20px/20px;}
 .list{padding-left: 5px; padding-right: 5px; margin:10px; border:1px solid tomato; border-radius: 20px/20px;}
@@ -59,13 +59,13 @@
 
 
 
-<div style="max-height: 100px; max-width: 100px; width: 100px; overflow: auto;">
- <table>
+
 <tr class="tr2">
   
 <td class="listwidth" id="transparent" valign="top" height="250"> <br><br><br>Intro<br><li>DNA구조</li><li>유전자란?</li> </td><br>
 <td id="transparent" colspan="4" class="list" height="250" valign="top">
-
+<div style="max-height: 100px; max-width: 100px; width: 100px; overflow: auto;">
+ <table>
   
   
   
@@ -156,12 +156,12 @@ In 1988, after prompting from the United States Congress, the National Institute
 
 
 
-
+</table>
+</div>
 </td>
 
 </tr>
-</table>
-</div>
+
 
 
 
