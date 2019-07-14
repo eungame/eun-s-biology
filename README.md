@@ -74,7 +74,7 @@ table{border-spacing: 10px 10px;}
 <tr style="height=50px;" class="list">
  
 <td width="160" class="list" id="tomatobackground">
-<a id="white"><b>생명공학사이트(Biotechnology site]▶▶</b></a></td>
+<a id="white"><b>생명공학사이트▶<br>Biotechnology site</b></a></td>
 
 <td colspan="4" class="list" id="tomatobackground">
  
