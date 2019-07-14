@@ -64,7 +64,7 @@
   
 <td class="listwidth" id="transparent" valign="top" height="250"> <br><br><br>Intro<br><li>DNA구조</li><li>유전자란?</li> </td><br>
 <td id="transparent" colspan="4" class="list" height="250" valign="top">
-<div style="max-height: 600px; max-width: 95%; width: 95%; overflow: auto;">
+<div style="max-height: 600px; max-width: 95%; width: 95%; overflow: auto; margin-left: auto; margin-right: auto;">
  <table>
   
   
