@@ -38,18 +38,18 @@ table{border-spacing: 10px 10px;}
 
 <tr style="height=50px;" class="list" id="transparent" align="center">
  
-<td class="list" id="tomatobackground"><a href="생명공학홈.html" id="white"><b>홈(HOME)</b></a> </td>
+<td width="160" class="list" id="tomatobackground"><a href="생명공학홈.html" id="white"><b>홈<br>(HOME)</b></a> </td>
 
-<td class="list" id="tomatobackground">
+<td width="160" class="list" id="tomatobackground">
   <a href="1단원.html" id="white"><b>[1]생명의 연구(Cell Chemistry)</b></a></td>
 
-<td class="list" id="paddingtomatobackground">
+<td width="160" class="list" id="paddingtomatobackground">
   <a href="2단원.html" id="white"><b>[2]세포<br>(Cell)</b></a></td>
 
-<td class="list" id="tomatobackground">
+<td width="160" class="list" id="tomatobackground">
   <a href="3단원.html" id="white"><b>[3]유전공학(Genetic engineering)</b></a></td>
 
-<td class="list" id="tomatobackground">
+<td width="160" class="list" id="tomatobackground">
   <a href="4단원.html" id="white"><b>[4]신경&신호전달(neuro&signal transmission)(</b></a></td>
 
 </tr>
@@ -59,7 +59,7 @@ table{border-spacing: 10px 10px;}
 
 <tr height="400" id="transparent" class="list">
   
-<td class="list" id="transparent" valign="top"> <br><br><br>Intro<br><li>DNA구조</li><li>유전자란?</li> </td><br>
+<td width="160" class="list" id="transparent" valign="top"> <br><br><br>Intro<br><li>DNA구조</li><li>유전자란?</li> </td><br>
  
 
 <td id="transparent" colspan="4" class="list" height="700" valign="top">
@@ -73,7 +73,7 @@ table{border-spacing: 10px 10px;}
 
 <tr style="height=50px;" class="list">
  
-<td class="list" id="tomatobackground">
+<td width="160" class="list" id="tomatobackground">
 <a id="white"><b>생명공학 관련사이트(Biotechnology site]▶▶</b></a></td>
 
 <td colspan="4" class="list" id="tomatobackground">
