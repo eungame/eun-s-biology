@@ -7,10 +7,9 @@
 <meta charset="UTF-8">
 
 <style>
-table{border-spacing: 10px 10px; align:center; margin-left: auto; margin-right: auto;
- width:60%; height:1000px; cellpadding:20px; cellspacing:10;}
+table{border-spacing: 10px 10px; align:center; margin-left: auto; margin-right: auto; width:60%; height:1000px; cellpadding:20px; cellspacing:10;}
 .tr1{height:50px; padding-left: 5px; padding-right: 5px; margin:10px; border:1px solid tomato; border-radius: 20px/20px; text-align:center;}
-.tr2{height:400px; padding-left: 5px; padding-right: 5px; margin:10px; border:1px solid tomato; border-radius: 20px/20px;>
+.tr2{height:400px; padding-left: 5px; padding-right: 5px; margin:10px; border:1px solid tomato; border-radius: 20px/20px;}
 .list{padding-left: 5px; padding-right: 5px; margin:10px; border:1px solid tomato; border-radius: 20px/20px;}
  #only{padding-left: 2px; padding-right: 2px; margin:10px; border:3px solid transparent; border-radius: 20px/20px; background-color:transparent;}
  #red{color:red;}
@@ -45,7 +44,7 @@ table{border-spacing: 10px 10px; align:center; margin-left: auto; margin-right: 
   <a href="3단원.html" id="white"><b>[3]유전공학(Genetic engineering)</b></a></td>
 
 <td width="12%" class="list" id="tomatobackground">
-  <a href="4단원.html" id="white"><b>[4]신경&신호전달(neuro&signal transmission)(</b></a></td>
+  <a href="4단원.html" id="white"><b>[4]신경&신호전달(neuro&signal transmission)</b></a></td>
 
 </tr>
 
