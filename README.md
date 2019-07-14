@@ -10,11 +10,15 @@
 .tr2{padding-left: 5px; padding-right: 5px; margin:10px; border:1px solid tomato; border-radius: 20px/20px;}
 .list{padding-left: 5px; padding-right: 5px; margin:10px; border:1px solid tomato; border-radius: 20px/20px;}
 .listwidth{width:12%;padding-left: 5px; padding-right: 5px; margin:10px; border:1px solid tomato; border-radius: 20px/20px;}
+.sizeSmall{width:60%; height:40%;}
+.sizeNormal{width:70%; height:50%;}
+.sizeLarge{width:80%;height:55%;}
  #red{color:red;}
  #black{color:black;}
  #white{color:white; text-shadow:1px 1px 0px #f40;}
  #transparent{background-color:transparent;}
  #tomatobackground{background-color:tomato;}
+ #redbackground{background-color:red;}
  #paddingtomatobackground{background-color:tomato; padding-left: 12px; padding-right: 12px;}
  #centercontent{height:700px; max-width: 95%; width: 95%; overflow: auto; margin-left: auto; margin-right: auto;}
 </style>
@@ -31,15 +35,15 @@
 <tr class="tr1">
  
 <td class="listwidth" id="tomatobackground">
- <a href="생명공학홈.html" id="white"><b>홈<br>(HOME)</b></a></td>
+ <a href="생명공학홈.html" id="white"><b>홈(HOME)</b></a></td>
 <td class="listwidth" id="tomatobackground">
- <a href="1단원.html" id="white"><b>[1]생명의 연구(Cell Chemistry)</b></a></td>
+ <a href="1단원.html" id="white"><b>[1]생화학(BioChemistry)</b></a></td>
 <td class="listwidth" id="paddingtomatobackground">
- <a href="2단원.html" id="white"><b>[2]세포<br>(Cell)</b></a></td>
+ <a href="2단원.html" id="white"><b>[2]세포와물질대사<br>(Cell&Metabolism)</b></a></td>
 <td class="listwidth" id="tomatobackground">
  <a href="3단원.html" id="white"><b>[3]유전공학(Genetic engineering)</b></a></td>
-<td class="listwidth" id="tomatobackground">
- <a href="4단원.html" id="white"><b>[4]신경&신호전달(neuro&signal transmission)</b></a></td>
+<td class="listwidth" id="redbackground">
+ <a href="방명록.html" id="white"><b>방명록(visitors' comment)</b></a></td>
 
 </tr>
 
@@ -49,8 +53,10 @@
  <br><br><br>
  <h2>생명공학 개요(Biotechnology)</h2>
  <br>
- <li><a href="#BioDef">생명공학 정의(Biotechnology's def)</a></li>
- <li><a href="#Example1">예시1(Example1)</a></li> 
+<ol>
+ <li><a href="#BioDef">생명공학 소개(Biotechnology introduction)</a></li>
+ <li><a href="#content">생명공학 연구영역<br>(Biotechnology's field)</a></li> 
+</ol>
 </td>
 
 <td id="transparent" colspan="4" class="list" valign="top">
@@ -61,42 +67,33 @@
   
   
   
-<div id="BioDef">  
-Definitions[edit]
+<div id="BioDef">
+<h3>생명공학 소개(Biotechnology introduction)</h3>  
+▽생명공학 기술의 소개 및 장단점 영상(Introduction of Biotechnology video)▽
+<br><iframe width="80%" height="45%" src="https://www.youtube.com/embed/5AfKB2V-DgE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br><br><br>
+생명공학기술 (生命工學技術) 또는 바이오테크놀로지(영어: biotechnology, BT)는 생물의 유전자 DNA를 인위적으로 재조합, 형질을 전환하거나 생체기능을 모방하여 다양한 분야에 응용하는 기술 즉, 생명 현상, 생물 기능 그 자체를 인위적으로 조작하는 기술이다. 생물체가 가지는 유전·번식·성장·자기제어 및 물질대사 등의 기능과 정보를 이용해 인류에게 필요한 물질과 서비스를 가공·생산하는 기술을 말한다.
 
-The wide concept of "biotech" or "biotechnology" encompasses a wide range of procedures for modifying living organisms according to human purposes, going back to domestication of animals, cultivation of the plants, and "improvements" to these through breeding programs that employ artificial selection and hybridization. Modern usage also includes genetic engineering as well as cell and tissue culture technologies. The American Chemical Society defines biotechnology as the application of biological organisms, systems, or processes by various industries to learning about the science of life and the improvement of the value of materials and organisms such as pharmaceuticals, crops, and livestock.[3] Per the European Federation of Biotechnology, biotechnology is the integration of natural science and organisms, cells, parts thereof, and molecular analogues for products and services.[4] Biotechnology is based on the basic biological sciences (e.g. molecular biology, biochemistry, cell biology, embryology, genetics, microbiology) and conversely provides methods to support and perform basic research in biology. 
+유전자 치환이나 재조합, 세포융합을 이용한 대량 배양한 효소를 사용하여 물질을 합성하는 바이오리액터(bioreactor) 등 생체기능 자체를 응용한 기술에 의하여 자연에는 극히 미량밖에 존재하지 않는 물질을 대량으로 생산하려는 것으로 이미 당뇨병의 특효약 인슐린, 제암제 인터페론 등이 상업화되었다. 의약품뿐만 아니라 화학식품·화학섬유 등의 업종에서도 연구개발이 활발히 진행 중이다. 앞으로는 품질개량, 식량생산(GMO 식품) 등 농업 분야에도 응용될 것으로 기대된다.
 
-Biotechnology is the research and development in the laboratory using bioinformatics for exploration, extraction, exploitation and production from any living organisms and any source of biomass by means of biochemical engineering where high value-added products could be planned (reproduced by biosynthesis, for example), forecasted, formulated, developed, manufactured, and marketed for the purpose of sustainable operations (for the return from bottomless initial investment on R & D) and gaining durable patents rights (for exclusives rights for sales, and prior to this to receive national and international approval from the results on animal experiment and human experiment, especially on the pharmaceutical branch of biotechnology to prevent any undetected side-effects or safety concerns by using the products).[5][6][7] The utilization of biological processes, organisms or systems to produce products that are anticipated to improve human lives is termed biotechnology.[8] 
+20세기 후반에는 유전자에 관한 연구가 급증하였고, 1996년에는 스코틀랜드의 로슬린 연구소에서 이언 윌머트와 키스 캠벨이 핵 이식 기술을 이용하여 복제 양 돌리를 탄생시켰고 그 이후 다른 과학자들이 쥐 소 등으로 많은 복제를 해왔다
 
-By contrast, bioengineering is generally thought of as a related field that more heavily emphasizes higher systems approaches (not necessarily the altering or using of biological materials directly) for interfacing with and utilizing living things. Bioengineering is the application of the principles of engineering and natural sciences to tissues, cells and molecules. This can be considered as the use of knowledge from working with and manipulating biology to achieve a result that can improve functions in plants and animals.[9] Relatedly, biomedical engineering is an overlapping field that often draws upon and applies biotechnology (by various definitions), especially in certain sub-fields of biomedical or chemical engineering such as tissue engineering, biopharmaceutical engineering, and genetic engineering. 
+미국에서는 이 분야의 벤처 비즈니스가 성행하고 있다.
 
-
-
+한국 정부는 2000년 10월 ‘바이오산업 발전 방안’을 수립함으로써 생물산업 발전의 기본틀을 마련했고, 기술 개발과 산업화를 양대 축으로 과학기술부·산업자원부·보건복지가족부 등 관계 부처가 추진해 왔다. 2001년 8월에는 IT·NT 등과 함께 5대 차세대 성장산업으로 지정해 2010년까지 G7 수준으로 집중 육성키로 한 바 있다.
 </div>
-<div id="Example1">
-Examples[edit]
 
 
- 
 
-
-A rose plant that began as cells grown in a tissue culture
-Biotechnology has applications in four major industrial areas, including health care (medical), crop production and agriculture, non-food (industrial) uses of crops and other products (e.g. biodegradable plastics, vegetable oil, biofuels, and environmental uses). 
-
-For example, one application of biotechnology is the directed use of microorganisms for the manufacture of organic products (examples include beer and milk products). Another example is using naturally present bacteria by the mining industry in bioleaching. Biotechnology is also used to recycle, treat waste, clean up sites contaminated by industrial activities (bioremediation), and also to produce biological weapons. 
-
-A series of derived terms have been coined to identify several branches of biotechnology, for example: 
-Bioinformatics (also called "gold biotechnology") is an interdisciplinary field that addresses biological problems using computational techniques, and makes the rapid organization as well as analysis of biological data possible. The field may also be referred to as computational biology, and can be defined as, "conceptualizing biology in terms of molecules and then applying informatics techniques to understand and organize the information associated with these molecules, on a large scale."[17] Bioinformatics plays a key role in various areas, such as functional genomics, structural genomics, and proteomics, and forms a key component in the biotechnology and pharmaceutical sector.[18]
-Blue biotechnology is based on the exploitation of sea resources to create products and industrial applications.[19] This branch of biotechnology is the most used for the industries of refining and combustion principally on the production of bio-oils with photosynthetic micro-algae.[19][20]
-Green biotechnology is biotechnology applied to agricultural processes. An example would be the selection and domestication of plants via micropropagation. Another example is the designing of transgenic plants to grow under specific environments in the presence (or absence) of chemicals. One hope is that green biotechnology might produce more environmentally friendly solutions than traditional industrial agriculture. An example of this is the engineering of a plant to express a pesticide, thereby ending the need of external application of pesticides. An example of this would be Bt corn. Whether or not green biotechnology products such as this are ultimately more environmentally friendly is a topic of considerable debate.[19] It is commonly considered as the next phase of green revolution, which can be seen as a platform to eradicate world hunger by using technologies which enable the production of more fertile and resistant, towards biotic and abiotic stress, plants and ensures application of environmentally friendly fertilizers and the use of biopesticides, it is mainly focused on the development of agriculture.[19] On the other hand, some of the uses of green biotechnology involve microorganisms to clean and reduce waste.[21][19]
-Red biotechnology is the use of biotechnology in the medical and pharmaceutical industries, and health preservation.[19] This branch involves the production of vaccines and antibiotics, regenerative therapies, creation of artificial organs and new diagnostics of diseases.[19] As well as the development of hormones, stem cells, antibodies, siRNA and diagnostic tests.[19]
-White biotechnology, also known as industrial biotechnology, is biotechnology applied to industrial processes. An example is the designing of an organism to produce a useful chemical. Another example is the using of enzymes as industrial catalysts to either produce valuable chemicals or destroy hazardous/polluting chemicals. White biotechnology tends to consume less in resources than traditional processes used to produce industrial goods.[22][23]
-"Yellow biotechnology" refers to the use of biotechnology in food production, for example in making wine, cheese, and beer by fermentation.[19] It has also been used to refer to biotechnology applied to insects. This includes biotechnology-based approaches for the control of harmful insects, the characterisation and utilisation of active ingredients or genes of insects for research, or application in agriculture and medicine and various other approaches.[24]
-Gray biotechnology is dedicated to environmental applications, and focused on the maintenance of biodiversity and the remotion of pollutants.[19]
-Brown biotechnology is related to the management of arid lands and deserts. One application is the creation of enhanced seeds that resist extreme environmental conditions of arid regions, which is related to the innovation, creation of agriculture techniques and management of resources.[19]
-Violet biotechnology is related to law, ethical and philosophical issues around biotechnology.[19]
-Dark biotechnology is the color associated with bioterrorism or biological weapons and biowarfare which uses microorganisms, and toxins to cause diseases and death in humans, livestock and crops.[25][19]
-
+<div id="content">
+<h3>생명공학의 연구영역(Biotechnology's field)</h3>  
+▽유전자 재조합 기술 영상(Gene recombination technology video)▽
+<br><iframe width="80%" height="45%" src="https://www.youtube.com/embed/n9lrwyHeOo8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br><br>
+생명공학의 연구영역은 크게 미생물, 식물, 동물, 인체 등으로 나눌 수 있다. 미생물의 연구영역으로는 미생물 유전체 해석 및 기능 연구, 미생물 대사물질 이용기술, 미생물을 농업과 환경 문제 해결에 적용하는 기술, 발효와 같이 식품에 활용하는 기술 등을 들 수 있다.
+현재의 생명공학은 유전자재조합기술에 기초하여 유전자를 직접 조작하는 방식을 취하고 있으며, 정보통신기술이나 나노기술 등 새롭게 발전하고 있는 기술들과도 융합을 거듭하고 있다. 생물공학의 무진무궁한 발전 가능성을 고려하여 우리나라에서도 적극적인 투자와 지원에 나서고 있다. 실제로 2000년대 들어 정부는 적극 육성해야 할 6대 신기술(6T) 중 하나로 생명공학(BT)을 꼽고 있다.
+이 때, 나머지 5T란 정보기술(IT), 나노기술(NT), 환경기술(ET), 문화콘텐츠기술(CT), 우주항공기술(ST)을 말한다.
+특히 각광받는 분야인 생명공학의 인체로의 연구영역으로는 인간유전체사업, 암 등 난치병 예방과 치료 기술, 의료기기 및 의료용 생체재료 기술, 의약품 안전성 평가 기술 등을 꼽을 수 있다.
 </div>
 
 
@@ -115,7 +112,7 @@ Dark biotechnology is the color associated with bioterrorism or biological weapo
 <td colspan="4" class="list" id="tomatobackground" style="height:55px;">
 <ol>
 <li><a href="https://www.kribb.re.kr/" target="_blank" align="left" id="white">한국생명공학연구원(Korea Research Institute of Bioscience and Biotechnology)[클릭(click)]</a></li>
-<li><a href="https://www.ncbi.nlm.nih.gov/" target="_blank" align="left" id="white">미국 국립 생물정보센터(National Center for Biological Information)[클릭(click)]</a></li>
+<li><a href="https://www.ncbi.nlm.nih.gov/" target="_blank" align="left" id="white">미국 국립 생물정보센터(U.S. National Center for Biological Information)[클릭(click)]</a></li>
 </ol>
 </td>
 </tr>
