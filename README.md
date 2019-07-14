@@ -46,10 +46,11 @@
 <tr class="tr2">
   
 <td class="listwidth" id="transparent" valign="top" > 
- <br><br><br><h3>생명공학 개요(Biotechnology)</h3>
+ <br><br><br>
+ <h2>생명공학 개요(Biotechnology)</h2>
  <br>
- <li><a href="#BioDef"><h4>생명공학 정의(Biotechnology's def)</h4></a></li>
- <li><a href="#Example1"><h4>예시1(Example1)</h4></a></li> 
+ <li><a href="#BioDef">생명공학 정의(Biotechnology's def)</a></li>
+ <li><a href="#Example1">예시1(Example1)</a></li> 
 </td>
 
 <td id="transparent" colspan="4" class="list" valign="top">
