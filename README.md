@@ -47,7 +47,7 @@ table{border-spacing: 10px 10px; align:center; margin-left: auto; margin-right: 
 <tr class="tr2">
   
 <td class="listwidth" id="transparent" valign="top"> <br><br><br>Intro<br><li>DNA구조</li><li>유전자란?</li> </td><br>
- <td id="transparent" colspan="4" class="list" height="700" valign="top">
+<td id="transparent" colspan="4" class="list" height="250" valign="top">
 
   
   
