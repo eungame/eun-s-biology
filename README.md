@@ -16,7 +16,7 @@
  #transparent{background-color:transparent;}
  #tomatobackground{background-color:tomato;}
  #paddingtomatobackground{background-color:tomato; padding-left: 12px; padding-right: 12px;}
- #centercontent{height:98%; max-width: 95%; width: 95%; overflow: auto; margin-left: auto; margin-right: auto;}
+ #centercontent{height:700px; max-width: 95%; width: 95%; overflow: auto; margin-left: auto; margin-right: auto;}
 </style>
 
 </head>
