@@ -18,6 +18,7 @@
  #transparent{background-color:transparent;}
  #tomatobackground{background-color:tomato;}
  #paddingtomatobackground{background-color:tomato; padding-left: 12px; padding-right: 12px;}
+ #centercontent{max-height: 600px; max-width: 95%; width: 95%; overflow: auto; margin-left: auto; margin-right: auto;}
 </style>
 
 </head>
@@ -64,7 +65,7 @@
   
 <td class="listwidth" id="transparent" valign="top" height="250"> <br><br><br>Intro<br><li>DNA구조</li><li>유전자란?</li> </td><br>
 <td id="transparent" colspan="4" class="list" height="250" valign="top">
-<div style="max-height: 600px; max-width: 95%; width: 95%; overflow: auto; margin-left: auto; margin-right: auto;">
+<div id="centercontent">
  <table>
   
   
