@@ -42,7 +42,7 @@ table{border-spacing: 10px 10px;}
 <td class="list" id="tomatobackground">
   <a href="1단원.html" id="white"><b>[1]생명의 연구(Cell Chemistry)</b></a></td>
 
-<td class="list" id="tomatobackground">
+<td class="list" id="tomatobackground" width="50">
   <a href="2단원.html" id="white"><b>[2]세포(Cell)</b></a></td>
 
 <td class="list" id="tomatobackground">
