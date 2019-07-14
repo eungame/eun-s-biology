@@ -10,8 +10,6 @@
 .tr2{height:250px; padding-left: 5px; padding-right: 5px; margin:10px; border:1px solid tomato; border-radius: 20px/20px;}
 .list{padding-left: 5px; padding-right: 5px; margin:10px; border:1px solid tomato; border-radius: 20px/20px;}
 .listwidth{width:12%;padding-left: 5px; padding-right: 5px; margin:10px; border:1px solid tomato; border-radius: 20px/20px;}
-.scrollbar{overflow-y:scroll; width:200; height:100; padding:4px;}
- #only{padding-left: 2px; padding-right: 2px; margin:10px; border:3px solid transparent; border-radius: 20px/20px; background-color:transparent;}
  #red{color:red;}
  #black{color:black;}
  #white{color:white; text-shadow:1px 1px 0px #f40;}
@@ -118,34 +116,7 @@ Dark biotechnology is the color associated with bioterrorism or biological weapo
 
 </tr>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<tr style="height=50px;" class="list">
+<tr style="height:50px;" class="list">
  
 <td class="listwidth" id="tomatobackground">
 <a id="white"><b>생명공학사이트▶<br>Biotechnology site</b></a></td>
