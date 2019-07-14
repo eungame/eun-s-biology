@@ -8,7 +8,10 @@
  
  
 <style>
-table{border-spacing: 10px 10px; align:center;}
+table{border-spacing: 10px 10px; align:center; margin-left: auto; margin-right: auto;
+ width:60%; height:1000px; cellpadding:20px; cellspacing:10;}
+ .tr1{height:50px; padding-left: 5px; padding-right: 5px; margin:10px; border:1px solid tomato; border-radius: 20px/20px; background-color:transparent; text-align:center;}
+ .tr2{height:400px; background-color:transparent; padding-left: 5px; padding-right: 5px; margin:10px; border:1px solid tomato; border-radius: 20px/20px;>
  .list{padding-left: 5px; padding-right: 5px; margin:10px; border:1px solid tomato; border-radius: 20px/20px;}
  #only{padding-left: 2px; padding-right: 2px; margin:10px; border:3px solid transparent; border-radius: 20px/20px; background-color:transparent;}
  #red{color:red;}
@@ -32,24 +35,23 @@ table{border-spacing: 10px 10px; align:center;}
 <br>
 
 
-<table width="800" height="1000" cellpadding="20" cellspacing="10">
+<table>
 
 
-
-<tr style="height=50px;" class="list" id="transparent" align="center">
+<tr class="tr1">
  
-<td width="160" class="list" id="tomatobackground"><a href="생명공학홈.html" id="white"><b>홈<br>(HOME)</b></a> </td>
+<td width="12%" class="list" id="tomatobackground"><a href="생명공학홈.html" id="white"><b>홈<br>(HOME)</b></a> </td>
 
-<td width="160" class="list" id="tomatobackground">
+<td width="12%" class="list" id="tomatobackground">
   <a href="1단원.html" id="white"><b>[1]생명의 연구(Cell Chemistry)</b></a></td>
 
-<td width="160" class="list" id="paddingtomatobackground">
+<td width="12%" class="list" id="paddingtomatobackground">
   <a href="2단원.html" id="white"><b>[2]세포<br>(Cell)</b></a></td>
 
-<td width="160" class="list" id="tomatobackground">
+<td width="12%" class="list" id="tomatobackground">
   <a href="3단원.html" id="white"><b>[3]유전공학(Genetic engineering)</b></a></td>
 
-<td width="160" class="list" id="tomatobackground">
+<td width="12%" class="list" id="tomatobackground">
   <a href="4단원.html" id="white"><b>[4]신경&신호전달(neuro&signal transmission)(</b></a></td>
 
 </tr>
@@ -57,9 +59,9 @@ table{border-spacing: 10px 10px; align:center;}
 
 
 
-<tr height="400" id="transparent" class="list">
+<tr class="tr2">
   
-<td width="160" class="list" id="transparent" valign="top"> <br><br><br>Intro<br><li>DNA구조</li><li>유전자란?</li> </td><br>
+<td width="12%" class="list" id="transparent" valign="top"> <br><br><br>Intro<br><li>DNA구조</li><li>유전자란?</li> </td><br>
  
 
 <td id="transparent" colspan="4" class="list" height="700" valign="top">
