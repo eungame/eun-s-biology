@@ -8,7 +8,7 @@
  
  
 <style>
-table{border-spacing: 10px 10px;}
+table{border-spacing: 10px 10px; align:center;}
  .list{padding-left: 5px; padding-right: 5px; margin:10px; border:1px solid tomato; border-radius: 20px/20px;}
  #only{padding-left: 2px; padding-right: 2px; margin:10px; border:3px solid transparent; border-radius: 20px/20px; background-color:transparent;}
  #red{color:red;}
