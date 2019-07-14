@@ -43,22 +43,6 @@
 
 </tr>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <tr class="tr2">
   
 <td class="listwidth" id="transparent" valign="top" height="250"> <br><br><br>Intro<br><li>DNA구조</li><li>유전자란?</li> </td><br>
@@ -118,9 +102,9 @@ Dark biotechnology is the color associated with bioterrorism or biological weapo
 
 <tr style="height:50px;" class="list">
  
-<td class="listwidth" id="tomatobackground">
+<td class="listwidth" id="tomatobackground" style="height:50px;">
 <a id="white"><b>생명공학사이트▶<br>Biotechnology site</b></a></td>
-<td colspan="4" class="list" id="tomatobackground">
+<td colspan="4" class="list" id="tomatobackground" style="height:50px;">
 <ol>
 <li><a href="https://www.kribb.re.kr/" target="_blank" align="left" id="white">한국생명공학연구원(Korea Research Institute of Bioscience and Biotechnology)[클릭(click)]</a></li>
 <li><a href="https://www.ncbi.nlm.nih.gov/" target="_blank" align="left" id="white">미국 국립 생물정보센터(National Center for Biological Information)[클릭(click)]</a></li>
