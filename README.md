@@ -44,6 +44,22 @@ table{border-spacing: 10px 10px; align:center; margin-left: auto; margin-right: 
 
 </tr>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div>
 <tr class="tr2">
   
 <td class="listwidth" id="transparent" valign="top" height="250"> <br><br><br>Intro<br><li>DNA구조</li><li>유전자란?</li> </td><br>
@@ -185,6 +201,32 @@ In 1988, after prompting from the United States Congress, the National Institute
 </td>
 
 </tr>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <tr style="height=50px;" class="list">
  
