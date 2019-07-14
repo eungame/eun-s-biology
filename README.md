@@ -15,6 +15,7 @@ table{border-spacing: 10px 10px;}
  #black{color:black;}
  #white{color:white; text-shadow:1px 1px 0px #f40;}
  #transparent{background-color:transparent;}
+ #tomatobackground{background-color:tomato;}
  #paddingtomatobackground{background-color:tomato; padding-left: 12px; padding-right: 12px;}
  
 </style>
@@ -43,7 +44,7 @@ table{border-spacing: 10px 10px;}
   <a href="1단원.html" id="white"><b>[1]생명의 연구(Cell Chemistry)</b></a></td>
 
 <td class="list" id="paddingtomatobackground">
-  <a href="2단원.html" id="white"><b>[2]     세포     <br>     (Cell)     </b></a></td>
+  <a href="2단원.html" id="white"><b>[2]세포<br>(Cell)</b></a></td>
 
 <td class="list" id="tomatobackground">
   <a href="3단원.html" id="white"><b>[3]유전공학(Genetic engineering)</b></a></td>
