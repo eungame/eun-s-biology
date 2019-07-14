@@ -10,6 +10,7 @@ table{border-spacing: 10px 10px; align:center; margin-left: auto; margin-right: 
 .tr2{height:400px; padding-left: 5px; padding-right: 5px; margin:10px; border:1px solid tomato; border-radius: 20px/20px;}
 .list{padding-left: 5px; padding-right: 5px; margin:10px; border:1px solid tomato; border-radius: 20px/20px;}
 .listwidth{width:12%;padding-left: 5px; padding-right: 5px; margin:10px; border:1px solid tomato; border-radius: 20px/20px;}
+.scrollbar{overflow-y:scroll; width:200; height:100; padding:4px;}
  #only{padding-left: 2px; padding-right: 2px; margin:10px; border:3px solid transparent; border-radius: 20px/20px; background-color:transparent;}
  #red{color:red;}
  #black{color:black;}
@@ -47,7 +48,9 @@ table{border-spacing: 10px 10px; align:center; margin-left: auto; margin-right: 
   
 <td class="listwidth" id="transparent" valign="top"> <br><br><br>Intro<br><li>DNA구조</li><li>유전자란?</li> </td><br>
  <td id="transparent" colspan="4" class="list" height="700" valign="top">
+ <div class="scrollbar">
  <b>내용 생성중</b>
+ </div>
 </td>
 
 </tr>
