@@ -16,7 +16,7 @@
  #transparent{background-color:transparent;}
  #tomatobackground{background-color:tomato;}
  #paddingtomatobackground{background-color:tomato; padding-left: 12px; padding-right: 12px;}
- #centercontent{max-height: 600px; max-width: 95%; width: 95%; overflow: auto; margin-left: auto; margin-right: auto;}
+ #centercontent{max-height:98%; max-width: 95%; width: 95%; overflow: auto; margin-left: auto; margin-right: auto;}
 </style>
 
 </head>
@@ -100,11 +100,11 @@ Dark biotechnology is the color associated with bioterrorism or biological weapo
 
 </tr>
 
-<tr style="height:50px;" class="list">
+<tr style="height:55px;" class="list">
  
-<td class="listwidth" id="tomatobackground" style="height:50px;">
+<td class="listwidth" id="tomatobackground" style="height:55px;">
 <a id="white"><b>생명공학사이트▶<br>Biotechnology site</b></a></td>
-<td colspan="4" class="list" id="tomatobackground" style="height:50px;">
+<td colspan="4" class="list" id="tomatobackground" style="height:55px;">
 <ol>
 <li><a href="https://www.kribb.re.kr/" target="_blank" align="left" id="white">한국생명공학연구원(Korea Research Institute of Bioscience and Biotechnology)[클릭(click)]</a></li>
 <li><a href="https://www.ncbi.nlm.nih.gov/" target="_blank" align="left" id="white">미국 국립 생물정보센터(National Center for Biological Information)[클릭(click)]</a></li>
