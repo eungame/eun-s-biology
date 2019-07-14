@@ -5,7 +5,7 @@
 <meta charset="UTF-8">
 
 <style>
-table{border-spacing: 10px 10px; align:center; margin-left: auto; margin-right: auto; width:60%; height:1000px; cellpadding:20px; cellspacing:10;}
+.tableheadandbody{border-spacing: 10px 10px; align:center; margin-left: auto; margin-right: auto; width:60%; height:1000px; cellpadding:20px; cellspacing:10;}
 .tr1{height:50px; padding-left: 5px; padding-right: 5px; margin:10px; border:1px solid tomato; border-radius: 20px/20px; text-align:center;}
 .tr2{height:250px; padding-left: 5px; padding-right: 5px; margin:10px; border:1px solid tomato; border-radius: 20px/20px;}
 .list{padding-left: 5px; padding-right: 5px; margin:10px; border:1px solid tomato; border-radius: 20px/20px;}
@@ -27,7 +27,7 @@ table{border-spacing: 10px 10px; align:center; margin-left: auto; margin-right: 
 <body background="생명공학배경사진.png">
 <br>
 
-<table>
+<table class="tableheadandbody">
 
 <tr class="tr1">
  
@@ -80,42 +80,8 @@ Biotechnology is the research and development in the laboratory using bioinforma
 
 By contrast, bioengineering is generally thought of as a related field that more heavily emphasizes higher systems approaches (not necessarily the altering or using of biological materials directly) for interfacing with and utilizing living things. Bioengineering is the application of the principles of engineering and natural sciences to tissues, cells and molecules. This can be considered as the use of knowledge from working with and manipulating biology to achieve a result that can improve functions in plants and animals.[9] Relatedly, biomedical engineering is an overlapping field that often draws upon and applies biotechnology (by various definitions), especially in certain sub-fields of biomedical or chemical engineering such as tissue engineering, biopharmaceutical engineering, and genetic engineering. 
 
-History[edit]
 
 
- 
-
-
-Brewing was an early application of biotechnology
-Main article: History of biotechnology
-
-Although not normally what first comes to mind, many forms of human-derived agriculture clearly fit the broad definition of "'utilizing a biotechnological system to make products". Indeed, the cultivation of plants may be viewed as the earliest biotechnological enterprise. 
-
-Agriculture has been theorized to have become the dominant way of producing food since the Neolithic Revolution. Through early biotechnology, the earliest farmers selected and bred the best suited crops, having the highest yields, to produce enough food to support a growing population. As crops and fields became increasingly large and difficult to maintain, it was discovered that specific organisms and their by-products could effectively fertilize, restore nitrogen, and control pests. Throughout the history of agriculture, farmers have inadvertently altered the genetics of their crops through introducing them to new environments and breeding them with other plants — one of the first forms of biotechnology. 
-
-These processes also were included in early fermentation of beer.[10] These processes were introduced in early Mesopotamia, Egypt, China and India, and still use the same basic biological methods. In brewing, malted grains (containing enzymes) convert starch from grains into sugar and then adding specific yeasts to produce beer. In this process, carbohydrates in the grains broke down into alcohols, such as ethanol. Later, other cultures produced the process of lactic acid fermentation, which produced other preserved foods, such as soy sauce. Fermentation was also used in this time period to produce leavened bread. Although the process of fermentation was not fully understood until Louis Pasteur's work in 1857, it is still the first use of biotechnology to convert a food source into another form. 
-
-Before the time of Charles Darwin's work and life, animal and plant scientists had already used selective breeding. Darwin added to that body of work with his scientific observations about the ability of science to change species. These accounts contributed to Darwin's theory of natural selection.[11] 
-
-For thousands of years, humans have used selective breeding to improve production of crops and livestock to use them for food. In selective breeding, organisms with desirable characteristics are mated to produce offspring with the same characteristics. For example, this technique was used with corn to produce the largest and sweetest crops.[12] 
-
-In the early twentieth century scientists gained a greater understanding of microbiology and explored ways of manufacturing specific products. In 1917, Chaim Weizmann first used a pure microbiological culture in an industrial process, that of manufacturing corn starch using Clostridium acetobutylicum, to produce acetone, which the United Kingdom desperately needed to manufacture explosives during World War I.[13] 
-
-Biotechnology has also led to the development of antibiotics. In 1928, Alexander Fleming discovered the mold Penicillium. His work led to the purification of the antibiotic compound formed by the mold by Howard Florey, Ernst Boris Chain and Norman Heatley – to form what we today know as penicillin. In 1940, penicillin became available for medicinal use to treat bacterial infections in humans.[12] 
-
-The field of modern biotechnology is generally thought of as having been born in 1971 when Paul Berg's (Stanford) experiments in gene splicing had early success. Herbert W. Boyer (Univ. Calif. at San Francisco) and Stanley N. Cohen (Stanford) significantly advanced the new technology in 1972 by transferring genetic material into a bacterium, such that the imported material would be reproduced. The commercial viability of a biotechnology industry was significantly expanded on June 16, 1980, when the United States Supreme Court ruled that a genetically modified microorganism could be patented in the case of Diamond v. Chakrabarty.[14] Indian-born Ananda Chakrabarty, working for General Electric, had modified a bacterium (of the genus Pseudomonas) capable of breaking down crude oil, which he proposed to use in treating oil spills. (Chakrabarty's work did not involve gene manipulation but rather the transfer of entire organelles between strains of the Pseudomonas bacterium. 
-
-Revenue in the industry is expected to grow by 12.9% in 2008.
-
-
-Ambox current red.svg 
-
-This section needs to be updated. Please update this article to reflect recent events or newly available information. (October 2018) 
-
-
-Another factor influencing the biotechnology sector's success is improved intellectual property rights legislation—and enforcement—worldwide, as well as strengthened demand for medical and pharmaceutical products to cope with an ageing, and ailing, U.S. population.[15] 
-
-Rising demand for biofuels is expected to be good news for the biotechnology sector, with the Department of Energy estimating ethanol usage could reduce U.S. petroleum-derived fuel consumption by up to 30% by 2030. The biotechnology sector has allowed the U.S. farming industry to rapidly increase its supply of corn and soybeans—the main inputs into biofuels—by developing genetically modified seeds that resist pests and drought. By increasing farm productivity, biotechnology boosts biofuel production.[16] 
 
 Examples[edit]
 
@@ -178,15 +144,7 @@ Industrial[edit]
 
 Industrial biotechnology (known mainly in Europe as white biotechnology) is the application of biotechnology for industrial purposes, including industrial fermentation. It includes the practice of using cells such as microorganisms, or components of cells like enzymes, to generate industrially useful products in sectors such as chemicals, food and feed, detergents, paper and pulp, textiles and biofuels.[79] In the current decades, significant progress has been done in creating genetically modified organisms (GMOs) that enhance the diversity of applications and economical viability of industrial biotechnology. By using renewable raw materials to produce a variety of chemicals and fuels, industrial biotechnology is actively advancing towards lowering greenhouse gas emissions and moving away from a petrochemical-based economy.[80] 
 
-Environmental[edit]
 
-The environment can be affected by biotechnologies, both positively and adversely. Vallero and others have argued that the difference between beneficial biotechnology (e.g.bioremediation is to clean up an oil spill or hazard chemical leak) versus the adverse effects stemming from biotechnological enterprises (e.g. flow of genetic material from transgenic organisms into wild strains) can be seen as applications and implications, respectively.[81] Cleaning up environmental wastes is an example of an application of environmental biotechnology; whereas loss of biodiversity or loss of containment of a harmful microbe are examples of environmental implications of biotechnology. 
-
-Regulation[edit]
-
-Main articles: Regulation of genetic engineering and Regulation of the release of genetic modified organisms
-
-The regulation of genetic engineering concerns approaches taken by governments to assess and manage the risks associated with the use of genetic engineering technology, and the development and release of genetically modified organisms (GMO), including genetically modified crops and genetically modified fish. There are differences in the regulation of GMOs between countries, with some of the most marked differences occurring between the USA and Europe.[82] Regulation varies in a given country depending on the intended use of the products of the genetic engineering. For example, a crop not intended for food use is generally not reviewed by authorities responsible for food safety.[83] The European Union differentiates between approval for cultivation within the EU and approval for import and processing. While only a few GMOs have been approved for cultivation in the EU a number of GMOs have been approved for import and processing.[84] The cultivation of GMOs has triggered a debate about coexistence of GM and non GM crops. Depending on the coexistence regulations, incentives for cultivation of GM crops differ.[85] 
 
 Learning[edit]
 
