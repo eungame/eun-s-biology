@@ -5,14 +5,13 @@
 <head>
  
 <meta charset="UTF-8">
- 
- 
+
 <style>
 table{border-spacing: 10px 10px; align:center; margin-left: auto; margin-right: auto;
  width:60%; height:1000px; cellpadding:20px; cellspacing:10;}
- .tr1{height:50px; padding-left: 5px; padding-right: 5px; margin:10px; border:1px solid tomato; border-radius: 20px/20px; text-align:center;}
- .tr2{height:400px; padding-left: 5px; padding-right: 5px; margin:10px; border:1px solid tomato; border-radius: 20px/20px;>
- .list{padding-left: 5px; padding-right: 5px; margin:10px; border:1px solid tomato; border-radius: 20px/20px;}
+.tr1{height:50px; padding-left: 5px; padding-right: 5px; margin:10px; border:1px solid tomato; border-radius: 20px/20px; text-align:center;}
+.tr2{height:400px; padding-left: 5px; padding-right: 5px; margin:10px; border:1px solid tomato; border-radius: 20px/20px;>
+.list{padding-left: 5px; padding-right: 5px; margin:10px; border:1px solid tomato; border-radius: 20px/20px;}
  #only{padding-left: 2px; padding-right: 2px; margin:10px; border:3px solid transparent; border-radius: 20px/20px; background-color:transparent;}
  #red{color:red;}
  #black{color:black;}
@@ -20,14 +19,9 @@ table{border-spacing: 10px 10px; align:center; margin-left: auto; margin-right: 
  #transparent{background-color:transparent;}
  #tomatobackground{background-color:tomato;}
  #paddingtomatobackground{background-color:tomato; padding-left: 12px; padding-right: 12px;}
- 
 </style>
- 
 
 </head>
-
-
-
 
 <body>
 
