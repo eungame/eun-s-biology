@@ -107,51 +107,6 @@ Brown biotechnology is related to the management of arid lands and deserts. One 
 Violet biotechnology is related to law, ethical and philosophical issues around biotechnology.[19]
 Dark biotechnology is the color associated with bioterrorism or biological weapons and biowarfare which uses microorganisms, and toxins to cause diseases and death in humans, livestock and crops.[25][19]
 
-Medicine[edit]
-
-In medicine, modern biotechnology has many applications in areas such as pharmaceutical drug discoveries and production, pharmacogenomics, and genetic testing (or genetic screening). 
-
-
- 
-
-
-DNA microarray chip – some can do as many as a million blood tests at once
-Pharmacogenomics (a combination of pharmacology and genomics) is the technology that analyses how genetic makeup affects an individual's response to drugs.[26] Researchers in the field investigate the influence of genetic variation on drug responses in patients by correlating gene expression or single-nucleotide polymorphisms with a drug's efficacy or toxicity.[27] The purpose of pharmacogenomics is to develop rational means to optimize drug therapy, with respect to the patients' genotype, to ensure maximum efficacy with minimal adverse effects.[28] Such approaches promise the advent of "personalized medicine"; in which drugs and drug combinations are optimized for each individual's unique genetic makeup.[29][30] 
-
-
- 
-
-
-Computer-generated image of insulin hexamers highlighting the threefold symmetry, the zinc ions holding it together, and the histidine residues involved in zinc binding.
-Biotechnology has contributed to the discovery and manufacturing of traditional small molecule pharmaceutical drugs as well as drugs that are the product of biotechnology – biopharmaceutics. Modern biotechnology can be used to manufacture existing medicines relatively easily and cheaply. The first genetically engineered products were medicines designed to treat human diseases. To cite one example, in 1978 Genentech developed synthetic humanized insulin by joining its gene with a plasmid vector inserted into the bacterium Escherichia coli. Insulin, widely used for the treatment of diabetes, was previously extracted from the pancreas of abattoir animals (cattle or pigs). The genetically engineered bacteria are able to produce large quantities of synthetic human insulin at relatively low cost.[31][32] Biotechnology has also enabled emerging therapeutics like gene therapy. The application of biotechnology to basic science (for example through the Human Genome Project) has also dramatically improved our understanding of biology and as our scientific knowledge of normal and disease biology has increased, our ability to develop new medicines to treat previously untreatable diseases has increased as well.[32] 
-
-Genetic testing allows the genetic diagnosis of vulnerabilities to inherited diseases, and can also be used to determine a child's parentage (genetic mother and father) or in general a person's ancestry. In addition to studying chromosomes to the level of individual genes, genetic testing in a broader sense includes biochemical tests for the possible presence of genetic diseases, or mutant forms of genes associated with increased risk of developing genetic disorders. Genetic testing identifies changes in chromosomes, genes, or proteins.[33] Most of the time, testing is used to find changes that are associated with inherited disorders. The results of a genetic test can confirm or rule out a suspected genetic condition or help determine a person's chance of developing or passing on a genetic disorder. As of 2011 several hundred genetic tests were in use.[34][35] Since genetic testing may open up ethical or psychological problems, genetic testing is often accompanied by genetic counseling. 
-
-Agriculture[edit]
-
-Genetically modified crops ("GM crops", or "biotech crops") are plants used in agriculture, the DNA of which has been modified with genetic engineering techniques. In most cases, the main aim is to introduce a new trait that does not occur naturally in the species. Biotechnology firms can contribute to future food security by improving the nutrition and viability of urban agriculture. Furthermore, the protection of intellectual property rights encourages private sector investment in agrobiotechnology. For example, in Illinois FARM Illinois (Food and Agriculture RoadMap for Illinois) is an initiative to develop and coordinate farmers, industry, research institutions, government, and nonprofits in pursuit of food and agriculture innovation. In addition, the Illinois Biotechnology Industry Organization (iBIO) is a life sciences industry association with more than 500 life sciences companies, universities, academic institutions, service providers and others as members. The association describes its members as "dedicated to making Illinois and the surrounding Midwest one of the world’s top life sciences centers."[36] 
-
-Examples in food crops include resistance to certain pests,[37] diseases,[38] stressful environmental conditions,[39] resistance to chemical treatments (e.g. resistance to a herbicide[40]), reduction of spoilage,[41] or improving the nutrient profile of the crop.[42] Examples in non-food crops include production of pharmaceutical agents,[43] biofuels,[44] and other industrially useful goods,[45] as well as for bioremediation.[46][47] 
-
-Farmers have widely adopted GM technology. Between 1996 and 2011, the total surface area of land cultivated with GM crops had increased by a factor of 94, from 17,000 square kilometers (4,200,000 acres) to 1,600,000 km2 (395 million acres).[48] 10% of the world's crop lands were planted with GM crops in 2010.[48] As of 2011, 11 different transgenic crops were grown commercially on 395 million acres (160 million hectares) in 29 countries such as the US, Brazil, Argentina, India, Canada, China, Paraguay, Pakistan, South Africa, Uruguay, Bolivia, Australia, Philippines, Myanmar, Burkina Faso, Mexico and Spain.[48] 
-
-Genetically modified foods are foods produced from organisms that have had specific changes introduced into their DNA with the methods of genetic engineering. These techniques have allowed for the introduction of new crop traits as well as a far greater control over a food's genetic structure than previously afforded by methods such as selective breeding and mutation breeding.[49] Commercial sale of genetically modified foods began in 1994, when Calgene first marketed its Flavr Savr delayed ripening tomato.[50] To date most genetic modification of foods have primarily focused on cash crops in high demand by farmers such as soybean, corn, canola, and cotton seed oil. These have been engineered for resistance to pathogens and herbicides and better nutrient profiles. GM livestock have also been experimentally developed; in November 2013 none were available on the market,[51] but in 2015 the FDA approved the first GM salmon for commercial production and consumption.[52] 
-
-There is a scientific consensus[53][54][55][56][57][58][59] that currently available food derived from GM crops poses no greater risk to human health than conventional food,[60][61][62][63][64][65][66] but that each GM food must be tested on a case-by-case basis before introduction.[67][68][69] Nonetheless, members of the public are much less likely than scientists to perceive GM foods as safe.[70][71][72][73] The legal and regulatory status of GM foods varies by country, with some nations banning or restricting them, and others permitting them with widely differing degrees of regulation.[74][75][76][77] 
-
-GM crops also provide a number of ecological benefits, if not used in excess.[78] However, opponents have objected to GM crops per se on several grounds, including environmental concerns, whether food produced from GM crops is safe, whether GM crops are needed to address the world's food needs, and economic concerns raised by the fact these organisms are subject to intellectual property law. 
-
-Industrial[edit]
-
-Industrial biotechnology (known mainly in Europe as white biotechnology) is the application of biotechnology for industrial purposes, including industrial fermentation. It includes the practice of using cells such as microorganisms, or components of cells like enzymes, to generate industrially useful products in sectors such as chemicals, food and feed, detergents, paper and pulp, textiles and biofuels.[79] In the current decades, significant progress has been done in creating genetically modified organisms (GMOs) that enhance the diversity of applications and economical viability of industrial biotechnology. By using renewable raw materials to produce a variety of chemicals and fuels, industrial biotechnology is actively advancing towards lowering greenhouse gas emissions and moving away from a petrochemical-based economy.[80] 
-
-
-
-Learning[edit]
-
-In 1988, after prompting from the United States Congress, the National Institute of General Medical Sciences (National Institutes of Health) (NIGMS) instituted a funding mechanism for biotechnology training. Universities nationwide compete for these funds to establish Biotechnology Training Programs (BTPs). Each successful application is generally funded for five years then must be competitively renewed. Graduate students in turn compete for acceptance into a BTP; if accepted, then stipend, tuition and health insurance support is provided for two or three years during the course of their Ph.D. thesis work. Nineteen institutions offer NIGMS supported BTPs.[86] Biotechnology training is also offered at the undergraduate level and in community colleges. 
-
-
 
 
 
