@@ -1,0 +1,699 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=3.0,user-scalable=1.0">
+
+ <title>생명공학, 유전공학</title>
+
+<style>
+ul{
+  list-style:none;
+}
+
+/*상단 메뉴탭*/
+
+#menu{
+text-align:center;
+font-size:14px;
+background-color:#fcf9ba;
+}
+
+#menu>ul>li{
+display: inline-block;
+position:relative;
+}
+
+#menu>ul>li>a{
+display:block;
+padding: 10px 40px;
+font-weight:600;
+background-color:#fcf9ba;
+color:black;
+}
+
+#menu ul ul{
+display:none;
+position:absolute;
+left:0;
+top:50px;
+padding:10px 0px;
+width:100%;
+background-color:#fff;
+box-shadow: #fcf9ba;
+}
+
+#menu ul ul a{
+display:block;
+padding:10px;
+text-align:left;
+border-top:1px solid #eaeaea;
+}
+
+#menu ul ul li:first-child a{
+border-top:none;
+}
+
+#menu>ul>li:hover ul{
+display:block;
+}
+
+#menu>ul>li:nth-child(2) ul{
+ width:164%;
+ left:-32%;
+}
+
+#menu>ul>li:nth-child(4) ul{
+ width:170%;
+ left:-35%;
+}
+
+
+
+
+/*왼쪽 메뉴바*/
+
+#main_content>ul>li{
+display: inline-block;
+position:absolute;
+left:23%;
+right:63%;
+top:20%;
+width:9%;
+height:70;
+padding-bottom:27.7%;
+background:transparent;
+box-shadow: #fcf9ba;
+}
+
+
+
+/*본문*/
+
+#main_content>ul>ul>li {
+display: inline-block;
+position:absolute;
+left:33%;
+top:20%;
+width:50%;
+height:76%;
+background-color:white;
+box-shadow: #fcf9ba;
+overflow: auto;}
+
+
+
+/*하단 정보글 탭*/
+
+#bottom{
+font-size:14px;
+background-color:#fcf9ba;
+}
+
+#bottom>ul>li{
+display: inline-block;
+padding: 10px 40px;
+background-color:#fcf9ba;
+color:black;
+font-weight:600;
+position:absolute;
+left:23%;
+top:100%;
+margin-bottom:3%;
+margin-right:60%;
+width:50%;
+}
+
+#bottom>ul>ul>li{
+display: inline-block;
+position:absolute;
+padding: 10px 40px;
+background-color:#fcf9ba;
+color:black;
+font-weight:600;
+left:32%;
+top:100%;
+right:40%;
+width:50%;
+}
+
+#bottom>ul>ul>li>a{
+color:black;
+font-weight:600;
+}
+
+
+
+ body{background-image: url('생명공학배경.jpg') ;
+background-position : center;
+background-size: 100% 2450%;
+ background-repeat:no-repeat;}
+a{ text-decoration:none }
+.audio-container{text-indent:24%;align:center;}
+.sizeSmall{width:80%; height:65%;}
+.sizeNormal{width:90%; height:75%;}
+.sizeLarge{width:95%;height:85%;}
+.sizeSuperLarge{width:90%;height:120%;}
+
+
+
+@media screen and (min-width: 800px) {
+
+#mobile_menu{display:none;}
+}
+
+    @media screen and (max-width: 800px) {
+
+
+#menu{display:none;}
+#main_content{display:none;}
+#bottom{display:none;}
+
+#mobile_intro{
+display:inline-block;
+top:20%;
+text-align:center;
+font-weight:600;
+align:center;
+width:96.2%;
+padding: 10px;
+background-color:#FEBDFA;
+color:black;
+border-radius:10px;
+}
+
+#li1{
+display:inline-block;
+top:20%;
+text-align:center;
+font-weight:600;
+align:center;
+width:84%;
+padding: 20px;
+background-color:#fcf9ba;
+color:black;
+border-radius:10px;
+}
+
+#li1 ul{
+display:none;
+position:absolute;
+left:30%;
+top:18%;
+padding:10px 0px;
+width:40%;
+background-color:white;
+color:#fff;
+box-shadow: #fcf9ba;
+}
+
+#li1 ul a{
+text-decoration:none;
+display:block;
+padding:10px;
+text-align:left;
+border-top:1px solid #eaeaea;
+}
+
+#li1 ul li:first-child a{
+border-top:none;
+}
+
+#li1:hover>ul{
+display:block;
+}
+
+#li2{
+display:inline-block;
+top:20%;
+text-align:center;
+font-weight:600;
+align:center;
+width:84%;
+padding: 20px;
+background-color:#fcf9ba;
+color:black;
+border-radius:10px;
+}
+
+#li2 ul{
+display:none;
+position:absolute;
+left:17%;
+top:29.7%;
+width:68%;
+padding:10px 0px;
+background-color:white;
+color:#fff;
+box-shadow: #fcf9ba;
+}
+
+#li2 ul a{
+text-decoration:none;
+display:block;
+padding:10px;
+text-align:left;
+border-top:1px solid #eaeaea;
+}
+
+#li2 ul li:first-child a{
+border-top:none;
+}
+
+#li2:hover>ul{
+display:block;
+}
+
+#li3{
+display:inline-block;
+top:20%;
+text-align:center;
+font-weight:600;
+align:center;
+width:84%;
+padding: 20px;
+background-color:#fcf9ba;
+color:black;
+border-radius:10px;
+}
+
+#li3 ul{
+display:none;
+position:absolute;
+left:23%;
+top:41.7%;
+width:56%;
+padding:10px 0px;
+background-color:white;
+color:#fff;
+box-shadow: #fcf9ba;
+}
+
+#li3 ul a{
+text-decoration:none;
+display:block;
+padding:10px;
+text-align:left;
+border-top:1px solid #eaeaea;
+}
+
+#li3 ul li:first-child a{
+border-top:none;
+}
+
+#li3:hover>ul{
+display:block;
+}
+
+
+#li4{
+display:inline-block;
+top:20%;
+text-align:center;
+font-weight:600;
+align:center;
+width:84%;
+padding: 20px;
+background-color:#fcf9ba;
+color:black;
+border-radius:10px;
+}
+
+#li4 ul{
+display:none;
+position:absolute;
+left:20%;
+top:53.3%;
+width:62%;
+padding:10px 0px;
+background-color:white;
+color:#fff;
+box-shadow: #fcf9ba;
+}
+
+#li4 ul a{
+text-decoration:none;
+display:block;
+padding:10px;
+text-align:left;
+border-top:1px solid #eaeaea;
+}
+
+#li4 ul li:first-child a{
+border-top:none;
+}
+
+#li4:hover>ul{
+display:block;
+}
+
+#li5{
+display:inline-block;
+top:20%;
+text-align:center;
+font-weight:600;
+align:center;
+width:84%;
+padding: 20px;
+background-color:#fcf9ba;
+color:black;
+border-radius:10px;
+}
+
+#li5 ul{
+display:none;
+position:absolute;
+left:36.5%;
+top:64.7%;
+width:30%;
+padding:10px 0px;
+background-color:white;
+color:#fff;
+box-shadow: #fcf9ba;
+}
+
+#li5 ul a{
+text-decoration:none;
+display:block;
+padding:10px;
+text-align:left;
+border-top:1px solid #eaeaea;
+}
+
+#li5 ul li:first-child a{
+border-top:none;
+}
+
+#li5:hover>ul{
+display:block;
+}
+
+
+
+
+
+}
+
+
+</style>
+
+</head>
+
+
+
+<body>
+
+
+<div class="wrapper">
+ <nav id="menu">
+  <ul>
+
+   <li>
+    <a href="생명공학홈.html">생명공학홈<br>(Biotechnology)</a>
+    <ul>
+       <li><a href="#BioDef">생명공학 소개</a></li>
+       <li><a href="#content">생명공학 연구영역</a></li>
+    </ul>
+   </li>
+
+   <li>
+    <a href="1단원.html">생화학<br>(BioChemistry)</a>
+    <ul>
+       <li><a href="#BioDef">생화학(Biochemistry's def)</a></li>
+       <li><a href="#chemicalElement">생명의 화학원소(Chemical element of life)</a></li>
+    </ul>
+   </li>
+
+   <li>
+    <a href="2단원.html">세포&대사<br>(Cell&Metabolism)</a>
+    <ul>
+       <li><a href="#cellTravel">세포로의 여행(Travel to Cell)</a></li>
+       <li><a href="#metabolism">물질대사(Metabolism)</a></li>
+    </ul>
+   </li>
+
+   <li>
+    <a href="3단원.html">유전공학<br>(DNA technology)</a>
+    <ul>
+       <li><a href="#dnaToProtein">DNA복제&전사&번역(DNA to Protein)</a></li>
+       <li><a href="#geneCloning">유전자재조합(Gene recombination)</a></li>
+    </ul>
+   </li>
+
+   <li>
+    <a href="방명록.html">퀴즈&방명록<br>(Quiz&comment)</a>
+    <ul>
+       <li><a href="#quiz">퀴즈&방명록</a></li>
+    </ul>
+   </li>
+
+  </ul>
+ </nav>
+
+
+
+
+
+<nav id="mobile_menu">
+
+<li id="mobile_intro">
+하단 메뉴를 클릭하시면 해당 페이지로 이동합니다
+</li>
+
+<br><br>
+<ul>
+
+
+<li id="li1">
+<a href="모바일_생명공학홈.html">생명공학홈(Biotechnology)</a>
+<ul>
+<li><a href="모바일_생명공학홈.html#BioDef">생명공학 소개</a></li>
+<li><a href="모바일_생명공학홈.html#content">생명공학 연구영역</a></li>
+</ul>
+</li>
+
+<br><br>
+
+<li id="li2">
+<a href="모바일_1단원.html">생화학(Biochemistry)</a>
+<ul>
+<li><a href="모바일_1단원.html#bioChemistry">생화학(Biochemistry's def)</a></li>
+<li><a href="모바일_1단원.html#chemicalElement">생명의 화학원소(Chemical element of life)</a></li>
+</ul>
+</li>
+
+<br><br>
+
+<li id="li3">
+<a href="모바일_2단원.html">세포&대사(Cell&Metabolism)</a>
+<ul>
+<li><a href="모바일_2단원.html#cellTravel">세포로의 여행(Travel to Cell)</a></li>
+<li><a href="모바일_2단원.html#metabolism">물질대사(Metabolism)</a></li>
+</ul>
+</li>
+
+<br><br>
+
+<li id="li4">
+<a href="모바일_3단원.html">유전공학(DNA technology)</a>
+<ul>
+<li><a href="모바일_3단원.html#dnaToProtein">DNA복제&전사&번역(DNA to Protein)</a></li>
+<li><a href="모바일_3단원.html#geneCloning">유전자재조합(Gene recombination)</a></li>
+</ul>
+</li>
+
+<br><br>
+
+<li id="li5">
+<a href="모바일_방명록.html">퀴즈&방명록(Quiz&comment)</a>
+<ul>
+<li><a href="모바일_방명록.html#quiz">퀴즈&방명록</a></li>
+</ul>
+</li>
+
+
+</ul>
+
+
+
+</nav>
+
+
+
+
+
+
+ <nav id="main_content">
+<ul>
+<li>
+
+ <h3 class="listfontsizecenterbig">퀴즈<br>&<br>방명록</h3>
+ <br>
+
+<a href="#quiz" class="listfontsizeleft_mobile">1. 퀴즈&방명록</a><br><br>
+ </li>
+
+<ul>
+<li>
+
+ <div id="quiz">
+
+ <br><br>
+
+  문제1. 다음 중 생화학 분자 중 세포핵에서 주로 발견되는 생명활동에 필수적인 생체고분자로서 
+  모든 살아있는 세포와 바이러스에서 유전 정보를 전달할 수 있는 뉴클레오타이드의 단당체로 구성된 복잡한 고분자량의 생화학적 거대 분자의 이름은?
+  
+  <input type="text" id="q1"/>
+<input type="button" value="제출1" onclick="conf1();"/>
+
+<script>
+function conf1(){
+    var a = document.getElementById("q1").value;
+    if(a=="핵산"){
+        alert('정답입니다');
+    } else {
+        alert('오답입니다');
+    }
+}
+  </script>
+  
+ <br><br>
+  문제2.단백질은 아미노산이라고 불리는 단위체로 만들어진 매우 큰 고분자 중합체이다. 
+  아미노산은 알파(α) 탄소라고 불리는 키랄 탄소에 ______, 카복시기(–COOH), 수소 원자(–H), 곁사슬(R기, –R)
+  이 결합되어있는 화합물이다. ______안에 들어갈 말은?(한글로 쓸 것)
+  
+    <input type="text" id="q2"/>
+<input type="button" value="제출2" onclick="conf2();"/>
+
+<script>
+function conf2(){
+    var a = document.getElementById("q2").value;
+    if(a=="아미노기"){
+        alert('정답입니다');
+    } else {
+        alert('오답입니다');
+    }
+}
+  </script>
+  
+   <br><br>
+  문제3.생명체 내의 산소 존재 하에 일어나는 세포 호흡 과정 중,
+  미토콘드리아 기질과 막간 공간의 H+ 농도 기울기를 통해 ATP가 합성되는 과정을 화학삼투라고 부른다.
+  이러한 과정은 또한 전자 전달계와 화학 삼투를 통해 ATP가 생성되는 과정은 산화 환원 반응에 의해 인산화가 이루어지므로 발생하는 현상이므로
+  ____________라고도 한다. ____________안에 들어갈 말은?(띄어쓰기 없이 쓸 것)
+  
+  
+    <input type="text" id="q3"/>
+<input type="button" value="제출3" onclick="conf3();"/>
+
+<script>
+function conf3(){
+    var a = document.getElementById("q3").value;
+    if(a=="산화적인산화"){
+        alert('정답입니다');
+    } else {
+        alert('오답입니다');
+    }
+}
+  </script>
+  
+     <br><br>
+  문제4.DNA복제가 주형가닥에 새로운 DNA분자를 합성하는 것이라면, 
+  DNA전사는 DNA주형가닥에 상보적인 ____분자를 합성하는 것이다. 
+  ____ 안에 들어갈 말은?
+  
+  
+    <input type="text" id="q4"/>
+<input type="button" value="제출4" onclick="conf4();"/>
+
+<script>
+function conf4(){
+    var a = document.getElementById("q4").value;
+    if(a=="RNA"){
+        alert('정답입니다');
+    } else {
+        alert('오답입니다');
+    }
+}
+  </script>
+  
+       <br><br>
+  문제5.위에 DNA전사 과정에서 만들어진 mRNA들은 리보솜과 tRNA사이에 낑겨서 붙잡힌다. 
+  그런다음 mRNA의 염기서열 세 개씩 한 묶음(____)으로 읽어서 각각의 ____에 해당하는 아미노산들을 이어붙이면 단백질 합성이 이루어진다. 
+  이것을 바로 번역이라고 부른다. 
+
+예를 들어 임이의 DNA조각 서열이 3'--GTGCACCTT--5'이였다면, 저 DNA조각을 주형으로 전사된 mRNA의 서열은 5'--CACGUGGAA--3'이 된다.
+  (RNA는 T염기대신 U염기를 가짐) 그리고 mRNA의 염기서열 3개씩 한 묶음으로, 
+  즉 CAC/GUG/GAA 이렇게 총 3개의 ____에 해당하는 아미노산을 tRNA가 끌고와서 이어붙이는 과정이 DNA전사→DNA번역 과정인 것이다.
+  ____ 안에 들어갈 말은?(한글,영문 상관없음)
+  
+  
+    <input type="text" id="q5"/>
+<input type="button" value="제출5" onclick="conf5();"/>
+
+<script>
+function conf5(){
+    var a = document.getElementById("q5").value;
+    if((a==="codon")||(a==="코돈")){
+        alert('정답입니다');
+    } else {
+        alert('오답입니다');
+    }
+}
+  </script>
+  <br><br><br>
+  
+  
+  
+  방명록을 작성해주세요
+
+<div id="disqus_thread"></div>
+<script>
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://web1-2.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+ </div>
+
+
+</li>
+</ul>
+</ul>
+
+
+
+</nav>
+
+
+<nav id="bottom">
+
+<ul>
+
+<li>
+생명공학사이트▶<br>Biotechnology site
+</li>
+
+<ul>
+
+<li><a href="https://www.kribb.re.kr/" target="_blank" >1. 한국생명공학연구원(Korea Research Institute of Bioscience and Biotechnology)[클릭(click)]</a><br>
+<a href="https://www.ncbi.nlm.nih.gov/" target="_blank" >2. 미국 국립 생물정보센터(U.S. National Center for Biological Information)[클릭(click)]</a></li>
+
+</ul>
+</ul>
+</nav>
+
+</body>
+</html>
