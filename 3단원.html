@@ -1,0 +1,626 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=3.0,user-scalable=1.0">
+
+ <title>생명공학, 유전공학</title>
+
+<style>
+ul{
+  list-style:none;
+}
+
+/*상단 메뉴탭*/
+
+#menu{
+text-align:center;
+font-size:14px;
+background-color:#fcf9ba;
+}
+
+#menu>ul>li{
+display: inline-block;
+position:relative;
+}
+
+#menu>ul>li>a{
+display:block;
+padding: 10px 40px;
+font-weight:600;
+background-color:#fcf9ba;
+color:black;
+}
+
+#menu ul ul{
+display:none;
+position:absolute;
+left:0;
+top:50px;
+padding:10px 0px;
+width:100%;
+background-color:#fff;
+box-shadow: #fcf9ba;
+}
+
+#menu ul ul a{
+display:block;
+padding:10px;
+text-align:left;
+border-top:1px solid #eaeaea;
+}
+
+#menu ul ul li:first-child a{
+border-top:none;
+}
+
+#menu>ul>li:hover ul{
+display:block;
+}
+
+#menu>ul>li:nth-child(2) ul{
+ width:164%;
+ left:-32%;
+}
+
+#menu>ul>li:nth-child(4) ul{
+ width:170%;
+ left:-35%;
+}
+
+
+
+
+/*왼쪽 메뉴바*/
+
+#main_content>ul>li{
+display: inline-block;
+position:absolute;
+left:23%;
+right:63%;
+top:20%;
+width:9%;
+height:70;
+padding-bottom:27.7%;
+background-color:white;
+box-shadow: #fcf9ba;
+}
+
+
+
+/*본문*/
+
+#main_content>ul>ul>li {
+display: inline-block;
+position:absolute;
+left:33%;
+top:20%;
+width:50%;
+height:76%;
+background-color:white;
+box-shadow: #fcf9ba;
+overflow: auto;}
+
+
+
+/*하단 정보글 탭*/
+
+#bottom{
+font-size:14px;
+background-color:#fcf9ba;
+}
+
+#bottom>ul>li{
+display: inline-block;
+padding: 10px 40px;
+background-color:#fcf9ba;
+color:black;
+font-weight:600;
+position:absolute;
+left:23%;
+top:100%;
+margin-bottom:3%;
+margin-right:60%;
+width:50%;
+}
+
+#bottom>ul>ul>li{
+display: inline-block;
+position:absolute;
+padding: 10px 40px;
+background-color:#fcf9ba;
+color:black;
+font-weight:600;
+left:32%;
+top:100%;
+right:40%;
+width:50%;
+}
+
+#bottom>ul>ul>li>a{
+color:black;
+font-weight:600;
+}
+
+
+
+ body{background-image: url('생명공학배경.jpg') ;
+background-size: 100% 110%;
+ background-repeat:no-repeat;}
+a{ text-decoration:none }
+.audio-container{text-indent:24%;align:center;}
+.sizeSmall{width:80%; height:65%;}
+.sizeNormal{width:90%; height:75%;}
+.sizeLarge{width:95%;height:85%;}
+.sizeSuperLarge{width:90%;height:120%;}
+
+
+
+@media screen and (min-width: 800px) {
+
+#mobile_menu{display:none;}
+}
+
+    @media screen and (max-width: 800px) {
+
+
+#menu{display:none;}
+#main_content{display:none;}
+#bottom{display:none;}
+
+#mobile_intro{
+display:inline-block;
+top:20%;
+text-align:center;
+font-weight:600;
+align:center;
+width:96.2%;
+padding: 10px;
+background-color:#FEBDFA;
+color:black;
+border-radius:10px;
+}
+
+#li1{
+display:inline-block;
+top:20%;
+text-align:center;
+font-weight:600;
+align:center;
+width:84%;
+padding: 20px;
+background-color:#fcf9ba;
+color:black;
+border-radius:10px;
+}
+
+#li1 ul{
+display:none;
+position:absolute;
+left:30%;
+top:18%;
+padding:10px 0px;
+width:40%;
+background-color:white;
+color:#fff;
+box-shadow: #fcf9ba;
+}
+
+#li1 ul a{
+text-decoration:none;
+display:block;
+padding:10px;
+text-align:left;
+border-top:1px solid #eaeaea;
+}
+
+#li1 ul li:first-child a{
+border-top:none;
+}
+
+#li1:hover>ul{
+display:block;
+}
+
+#li2{
+display:inline-block;
+top:20%;
+text-align:center;
+font-weight:600;
+align:center;
+width:84%;
+padding: 20px;
+background-color:#fcf9ba;
+color:black;
+border-radius:10px;
+}
+
+#li2 ul{
+display:none;
+position:absolute;
+left:17%;
+top:29.7%;
+width:68%;
+padding:10px 0px;
+background-color:white;
+color:#fff;
+box-shadow: #fcf9ba;
+}
+
+#li2 ul a{
+text-decoration:none;
+display:block;
+padding:10px;
+text-align:left;
+border-top:1px solid #eaeaea;
+}
+
+#li2 ul li:first-child a{
+border-top:none;
+}
+
+#li2:hover>ul{
+display:block;
+}
+
+#li3{
+display:inline-block;
+top:20%;
+text-align:center;
+font-weight:600;
+align:center;
+width:84%;
+padding: 20px;
+background-color:#fcf9ba;
+color:black;
+border-radius:10px;
+}
+
+#li3 ul{
+display:none;
+position:absolute;
+left:23%;
+top:41.7%;
+width:56%;
+padding:10px 0px;
+background-color:white;
+color:#fff;
+box-shadow: #fcf9ba;
+}
+
+#li3 ul a{
+text-decoration:none;
+display:block;
+padding:10px;
+text-align:left;
+border-top:1px solid #eaeaea;
+}
+
+#li3 ul li:first-child a{
+border-top:none;
+}
+
+#li3:hover>ul{
+display:block;
+}
+
+
+#li4{
+display:inline-block;
+top:20%;
+text-align:center;
+font-weight:600;
+align:center;
+width:84%;
+padding: 20px;
+background-color:#fcf9ba;
+color:black;
+border-radius:10px;
+}
+
+#li4 ul{
+display:none;
+position:absolute;
+left:20%;
+top:53.3%;
+width:62%;
+padding:10px 0px;
+background-color:white;
+color:#fff;
+box-shadow: #fcf9ba;
+}
+
+#li4 ul a{
+text-decoration:none;
+display:block;
+padding:10px;
+text-align:left;
+border-top:1px solid #eaeaea;
+}
+
+#li4 ul li:first-child a{
+border-top:none;
+}
+
+#li4:hover>ul{
+display:block;
+}
+
+#li5{
+display:inline-block;
+top:20%;
+text-align:center;
+font-weight:600;
+align:center;
+width:84%;
+padding: 20px;
+background-color:#fcf9ba;
+color:black;
+border-radius:10px;
+}
+
+#li5 ul{
+display:none;
+position:absolute;
+left:36.5%;
+top:64.7%;
+width:30%;
+padding:10px 0px;
+background-color:white;
+color:#fff;
+box-shadow: #fcf9ba;
+}
+
+#li5 ul a{
+text-decoration:none;
+display:block;
+padding:10px;
+text-align:left;
+border-top:1px solid #eaeaea;
+}
+
+#li5 ul li:first-child a{
+border-top:none;
+}
+
+#li5:hover>ul{
+display:block;
+}
+
+
+
+
+
+}
+
+
+</style>
+
+</head>
+
+
+
+<body>
+
+
+<div class="wrapper">
+ <nav id="menu">
+  <ul>
+
+   <li>
+    <a href="생명공학홈.html">생명공학홈<br>(Biotechnology)</a>
+    <ul>
+       <li><a href="#BioDef">생명공학 소개</a></li>
+       <li><a href="#content">생명공학 연구영역</a></li>
+    </ul>
+   </li>
+
+   <li>
+    <a href="1단원.html">생화학<br>(BioChemistry)</a>
+    <ul>
+       <li><a href="#BioDef">생화학(Biochemistry's def)</a></li>
+       <li><a href="#chemicalElement">생명의 화학원소(Chemical element of life)</a></li>
+    </ul>
+   </li>
+
+   <li>
+    <a href="2단원.html">세포&대사<br>(Cell&Metabolism)</a>
+    <ul>
+       <li><a href="#cellTravel">세포로의 여행(Travel to Cell)</a></li>
+       <li><a href="#metabolism">물질대사(Metabolism)</a></li>
+    </ul>
+   </li>
+
+   <li>
+    <a href="3단원.html">유전공학<br>(DNA technology)</a>
+    <ul>
+       <li><a href="#dnaToProtein">DNA복제&전사&번역(DNA to Protein)</a></li>
+       <li><a href="#geneCloning">유전자재조합(Gene recombination)</a></li>
+    </ul>
+   </li>
+
+   <li>
+    <a href="방명록.html">퀴즈&방명록<br>(Quiz&comment)</a>
+    <ul>
+       <li><a href="#quiz">퀴즈&방명록</a></li>
+    </ul>
+   </li>
+
+  </ul>
+ </nav>
+
+
+
+
+
+<nav id="mobile_menu">
+
+<li id="mobile_intro">
+하단 메뉴를 클릭하시면 해당 페이지로 이동합니다
+</li>
+
+<br><br>
+<ul>
+
+
+<li id="li1">
+<a href="모바일_생명공학홈.html">생명공학홈(Biotechnology)</a>
+<ul>
+<li><a href="모바일_생명공학홈.html#BioDef">생명공학 소개</a></li>
+<li><a href="모바일_생명공학홈.html#content">생명공학 연구영역</a></li>
+</ul>
+</li>
+
+<br><br>
+
+<li id="li2">
+<a href="모바일_1단원.html">생화학(Biochemistry)</a>
+<ul>
+<li><a href="모바일_1단원.html#bioChemistry">생화학(Biochemistry's def)</a></li>
+<li><a href="모바일_1단원.html#chemicalElement">생명의 화학원소(Chemical element of life)</a></li>
+</ul>
+</li>
+
+<br><br>
+
+<li id="li3">
+<a href="모바일_2단원.html">세포&대사(Cell&Metabolism)</a>
+<ul>
+<li><a href="모바일_2단원.html#cellTravel">세포로의 여행(Travel to Cell)</a></li>
+<li><a href="모바일_2단원.html#metabolism">물질대사(Metabolism)</a></li>
+</ul>
+</li>
+
+<br><br>
+
+<li id="li4">
+<a href="모바일_3단원.html">유전공학(DNA technology)</a>
+<ul>
+<li><a href="모바일_3단원.html#dnaToProtein">DNA복제&전사&번역(DNA to Protein)</a></li>
+<li><a href="모바일_3단원.html#geneCloning">유전자재조합(Gene recombination)</a></li>
+</ul>
+</li>
+
+<br><br>
+
+<li id="li5">
+<a href="모바일_방명록.html">퀴즈&방명록(Quiz&comment)</a>
+<ul>
+<li><a href="모바일_방명록.html#quiz">퀴즈&방명록</a></li>
+</ul>
+</li>
+
+
+</ul>
+
+
+
+</nav>
+
+
+
+
+
+
+ <nav id="main_content">
+<ul>
+<li>
+
+ <h3 class="listfontsizecenterbig">유전공학</h3>
+ <br>
+
+<a href="#dnaToProtein" class="listfontsizeleft_mobile">1. DNA복제&전사&번역(DNA to Protein)</a><br><br>
+<a href="#geneCloning" class="listfontsizeleft_mobile">2. 유전자재조합(Gene recombination)</a> 
+ </li>
+
+<ul>
+<li>
+
+<div id="dnaToProtein">
+<h3>DNA복제&전사&번역(DNA to Protein)</h3>
+▽DNA가 단백질로 발현되는 과정 요약영상▽
+<iframe width="80%" height="45%" src="https://www.youtube.com/embed/gG7uCskUOrA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br>
+↑'설정'>'자막'>'한국어' 를 클릭하시면 한국어 자막으로 영상 시청 가능합니다.
+<br><br>
+▽DNA복제→전사→번역 한눈에 알아보기▽
+<br><img class="sizeNormal" src="3단원DNA복제전사번역.png"/>
+<br>세포 분열시, DNA는 복제되어 각각 세포의 핵에 하나씩 들어간다.
+또 우리 몸에서 단백질의 생성을 필요로 하면 전사와 번역이 일어난다.
+
+<h4>1)DNA복제</h4>
+DNA는 유전물질로서, 세포가 분열할 때 이중나선 가닥이 각각 풀려 2개의 독자적인 가닥이 만들어진다.
+풀려서 생긴 2개의 가닥은 각각 또 자신을 주형삼아 새로운 가닥을 만들어내 총 4개의 가닥이 만들어진다.
+처음에 2가닥이였던 이중나선 가닥 1쌍은 4가닥인 이중나선 가닥 2쌍으로 불어난다.
+불어난 2쌍은 각각 1쌍씩 한 세포에 다시 들어가게 된다. 이것을 DNA의 복제라고 부른다.
+
+<br><br>DNA염기 중 아데닌은 티민과 결합하고, 구아닌은 사이토신과 결합하는 성질을 이용해
+한 가닥 한 가닥씩 복제가 이루어진다.
+<br><img class="sizeNormal" src="3단원DNA복제1.png"/>
+<br>△DNA복제는 DNA polymerase라는 효소가 주형 가닥을 기준으로 새로운 가닥을 합성해내는 과정이다△
+<br>*이 때, 복제원점(origin of replication)을 기준으로 양방향으로 합성됨▽
+<br><img class="sizeNormal" src="3단원DNA복제2.png"/>
+
+<h4>2)DNA전사</h4>
+DNA전사 단원을 나가기 앞서 DNA와 RNA의 차이점을 먼저 알아보자.
+<br><img class="sizeNormal" src="3단원DNARNA차이.png"/>
+<br>▽DNA전사과정▽
+<br><img class="sizeNormal" src="3단원DNA전사.png"/>
+<br>DNA복제가 주형가닥에 새로운 DNA분자를 합성하는 것이라면,
+전사는 DNA주형가닥에 상보적인 RNA분자를 합성하는 것이다.
+그리고 이렇게 전사된 RNA는 mRNA(messenger RNA)라고 불리운다.
+
+
+<h4>3)DNA번역</h4>
+<br><img class="sizeNormal" src="3단원DNA번역.png"/>
+<br>위에 DNA전사 과정에서 만들어진 mRNA들은 리보솜과 tRNA사이에 낑겨서 붙잡힌다.
+그런다음 mRNA의 염기서열 세 개씩 한 묶음(코돈)으로 읽어서
+각각의 코돈에 해당하는 아미노산들을 이어붙이면 단백질 합성이 이루어진다.
+이것을 바로 번역이라고 부른다.
+<br><br>예를 들어 임이의 DNA조각 서열이 3'--GTGCACCTT--5'이였다면,
+저 DNA조각을 주형으로 전사된 mRNA의 서열은 5'--CACGUGGAA--3'이 된다.(RNA는 T염기대신 U염기를 가짐)
+그리고 mRNA의 염기서열 3개씩 한 묶음으로, 즉 CAC/GUG/GAA 이렇게 총 3개의 코돈에 해당하는 아미노산을
+tRNA가 끌고와서 이어붙이는 과정이 DNA전사→DNA번역 과정인 것이다.
+</div>
+
+
+<div id="geneCloning">
+<h3>유전자재조합(gene recombination)</h3>
+<br><img class="sizeNormal" src="3단원유전자재조합1.png"/>
+<br>△DNA재조합 과정은 다음과같다△
+<br>우리가 만들고싶은 단백질의 유전자를 저 벡터 중간에 끼워넣으면 저 벡터의 전사시스템이 작동하여 그대로
+저 유전자를 전사하고, 곧이어 번역이 일어나면서 필요한 단백질을 만들게 된다.
+
+<br><br>이러한 DNA재조합의 가장 유명한 예는 바로 인슐린인데, 인슐린은 당뇨 치료제로서 최초로 유전자재조합을 통해 대량생산이 가능하게 된 의약품 중의 하나이다.▽
+<br><img class="sizeNormal" src="3단원유전자재조합2.png"/>
+</div>
+
+
+</li>
+</ul>
+</ul>
+
+
+
+</nav>
+
+
+<nav id="bottom">
+
+<ul>
+
+<li>
+생명공학사이트▶<br>Biotechnology site
+</li>
+
+<ul>
+
+<li><a href="https://www.kribb.re.kr/" target="_blank" >1. 한국생명공학연구원(Korea Research Institute of Bioscience and Biotechnology)[클릭(click)]</a><br>
+<a href="https://www.ncbi.nlm.nih.gov/" target="_blank" >2. 미국 국립 생물정보센터(U.S. National Center for Biological Information)[클릭(click)]</a></li>
+
+</ul>
+</ul>
+</nav>
+
+</body>
+</html>
